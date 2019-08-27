@@ -654,16 +654,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_cdma_sub=0
 
-PRODUCT_PACKAGES += \
-    qti-telephony-common
-
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \

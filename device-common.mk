@@ -100,12 +100,3 @@ PRODUCT_COPY_FILES += \
 # Dumpstate HAL
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.bonito
-
-# GAPPS inclusion
-GAPPS_VARIANT := mini
-GAPPS_FORCE_PACKAGE_OVERRIDES := true
-GAPPS_FORCE_WEBVIEW_OVERRIDES := true
-GAPPS_FORCE_DIALER_OVERRIDES := true
-GAPPS_FORCE_BROWSER_OVERRIDES := true
-
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
